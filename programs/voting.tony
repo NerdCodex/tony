@@ -1,0 +1,18 @@
+$ main.tony
+BEGIN
+    print("Voting Eligibility Checker");
+    name := scanStr("Enter your name: ");
+    age := scanInt("Enter your age: ");
+
+    $ printing the voter's details
+    print("Voter Name: " + name);
+    print("Voter Age: " + str(age));
+
+    $ Checking whether he/she is eligible for voting or not.
+    if (age >= 18) {
+        print("You are eligible for voting");
+    } else {
+        print("Your age is less than 18.");
+        print("So, You are not eligible for voting.");
+    };
+END

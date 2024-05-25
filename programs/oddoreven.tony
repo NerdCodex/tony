@@ -1,0 +1,12 @@
+$ oddoreven.tony
+BEGIN
+    print("To Check whether the given number is odd or even.");
+    number_1 := scanInt("Enter a number: ");
+
+    $ Checking number is odd or even using modulus division.
+    if (number_1 % 2 = 0) {
+        print("The given number " + str(number_1) + " is a even number.");
+    } else {
+        print("The given number " + str(number_1) + " is a odd number.");
+    };
+END
