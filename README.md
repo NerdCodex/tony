@@ -18,7 +18,7 @@ Tony is a simple interpreted language written in C++. This language currently su
   
   <b> Example </b>
   ```
-  name := Rakesh;
+  name := "Rakesh";
   age := 18;
   ```
   ## Builtin Functions
